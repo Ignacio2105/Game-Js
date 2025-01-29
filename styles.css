@@ -1,6 +1,6 @@
 body {
   background-color: indigo;
-  color: #fff;
+  color: #fff;  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
@@ -57,12 +57,10 @@ p {
 }
 
 @media (max-width: 440px) {
-  button {
-    margin-top: 25px;
+  button { 
+    margin-top: 25px; 
   }
-  #up,
-  #down {
-    margin-left: 100%;
-    margin-right: 100%;
+  #up, #down { 
+    margin-left: 100%; margin-right: 100%; 
   }
 }
