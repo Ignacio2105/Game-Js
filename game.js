@@ -8,6 +8,7 @@ const spanLives = document.querySelector('#lives');
 const spanTime = document.querySelector('#time');
 const spanRecord = document.querySelector('#record');
 const pResult = document.querySelector('#result');
+const btnReinit = document.querySelector('#reiniciar');
 
 let canvasSize;
 let elementsSize;
@@ -214,4 +215,9 @@ function moveDown() {
   playerPosition.y += elementsSize;
   startGame();
   }
+}
+
+btnReinit.addEventListener('click', reiniciarJuego);
+function reiniciarJuego() {
+  location.reload();
 }
